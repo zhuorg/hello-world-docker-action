@@ -3,4 +3,4 @@
 echo "Hello $1"
 time=$(date)
 echo ::set-output name=time::$time
-cat readme.md
+cat /github/workspace/readme.md
