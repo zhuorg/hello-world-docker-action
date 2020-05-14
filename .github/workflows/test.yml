@@ -7,9 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
     - uses: actions/checkout@v2
+    - run: echo "::set-env name=SLACK_WEBHOOK_URL::1.2"
     - uses: ./
       env: 
-        SLACK_WEBHOOK_URL: ${{secrets.SLACK_WEBHOOK_URL}}
+#         SLACK_WEBHOOK_URL: ${{secrets.SLACK_WEBHOOK_URL}}
         DYNAMIC_VAR: ${{secrets.DYNAMIC_VAR}}
       with:
         who-to-greet: 'jingzhu'
