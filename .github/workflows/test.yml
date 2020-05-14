@@ -6,4 +6,9 @@ jobs:
   test: 
     runs-on: ubuntu-latest
     steps: 
-    - run: echo hello
+    - uses: ./
+      env: 
+        env_url: 'http://localhost:80'
+        dynamic_var: 'dddd'
+      with:
+        who-to-greet: 'jingzhu'
