@@ -9,6 +9,6 @@ jobs:
     - uses: actions/checkout@v2
     - uses: ./
       with: 
-        who-to-greet: '[1,2,3]'
-        wp-db-name: 'wordpresstest'
-        wp-db-user: 'admin'
+        who_to_greet: '[1,2,3]'
+        wp_db_name: 'wordpresstest'
+        wp_db_user: 'admin'
