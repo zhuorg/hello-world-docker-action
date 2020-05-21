@@ -3,6 +3,6 @@
 echo "Hello $1"
 time=$(date)
 echo $INPUT_WHO_TO_GREET
-echo $INPUT_wp_db_name
+echo $INPUT_WP_DB_USER
 echo ::set-output name=time::$time
 
