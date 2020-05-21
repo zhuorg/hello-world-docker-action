@@ -7,7 +7,7 @@ inputs:
     default: 'World'
   wp-db-name:
     description: 'db name'
-  wp-db-user：
+  wp-db-user:
     description: 'db user' 
 outputs:
   time: # id of output
