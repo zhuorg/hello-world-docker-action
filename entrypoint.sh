@@ -11,6 +11,6 @@ newstr2=$(echo $newstr | sed 's/\]//g' ) # remove ]
 echo $newstr2
 IFS=,             # split on ,
 set -o noglob     # disable glob
-set -- $newstr2"" # split+glob with glob disabled.
+set -- $newstr2 # split+glob with glob disabled.
 echo "$# elements:"
 printf ' - "%s"\n' "$@"
