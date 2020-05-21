@@ -10,3 +10,5 @@ jobs:
     - uses: ./
       with: 
         who-to-greet: '[1,2,3]'
+        wp-db-name: 'wordpresstest'
+        wp-db-user: 'admin'
