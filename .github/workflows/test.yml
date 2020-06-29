@@ -7,8 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
     - uses: actions/checkout@v2
+    - name: set ENV
+      run: |
+         echo "::set-env name=INPUT_WHO_TO_GREET::yanjingzhu"
+
     - uses: ./
       with: 
-        who_to_greet: '[1,2,3]'
+#         who_to_greet: '[1,2,3]'
         wp_db_name: 'wordpresstest'
         wp_db_user: 'admin'
