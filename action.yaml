@@ -3,7 +3,7 @@ description: 'Greet someone and record the time'
 inputs:
   who_to_greet:  # id of input
     description: 'Who to greet'
-    required: true
+#     required: true
   wp_db_name:
     description: 'db name'
   wp_db_user:
