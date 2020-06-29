@@ -4,7 +4,6 @@ inputs:
   who_to_greet:  # id of input
     description: 'Who to greet'
     required: true
-    default: 'World'
   wp_db_name:
     description: 'db name'
   wp_db_user:
