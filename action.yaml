@@ -1,8 +1,8 @@
 name: 'Hello World yjz'
 description: 'Greet someone and record the time'
 inputs:
-  who_to_greet:  # id of input
-    description: 'Who to greet'
+#   who_to_greet:  # id of input
+#     description: 'Who to greet'
 #     required: true
   wp_db_name:
     description: 'db name'
