@@ -17,4 +17,4 @@ runs:
   args:
     - ${{ inputs.who_to_greet }}
   post-entrypoint: '/clean.sh'
-  post-if: always()
+  post-if: cancelled() 
