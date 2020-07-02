@@ -5,6 +5,6 @@ FROM alpine:3.10
 COPY entrypoint.sh /entrypoint.sh
 COPY README.md /README.md
 COPY clean.sh /clean.sh
-chmod +x entrypoint.sh
+chmod +x clean.sh
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
 ENTRYPOINT ["/entrypoint.sh"]
