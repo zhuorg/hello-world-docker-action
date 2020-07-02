@@ -16,5 +16,5 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.who_to_greet }}
-  post-entrypoint: 'cleanup.sh'
+  post-entrypoint: 'clean.sh'
   post-if: always()
