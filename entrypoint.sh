@@ -14,3 +14,4 @@ set -o noglob     # disable glob
 set -- $newstr2 # split+glob with glob disabled.
 echo "$# elements:"
 printf '"%s"\n' $@
+sleep 100
