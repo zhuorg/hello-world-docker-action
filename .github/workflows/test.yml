@@ -17,4 +17,4 @@ jobs:
         wp_db_name: 'wordpresstest'
         wp_db_user: 'admin'
       env: 
-        test: ererer
+        FOO: the-foo-value
