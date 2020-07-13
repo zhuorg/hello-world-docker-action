@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: set ENV
       run: |
-         echo "::set-env name=INPUT_WHO_TO_GREET::yanjingzhu"
+         echo "::set-env name=WHO_TO_GREET::yanjingzhu"
 
     - uses: ./
       with: 
@@ -17,4 +17,4 @@ jobs:
         wp_db_name: 'wordpresstest'
         wp_db_user: 'admin'
       env: 
-        test: erer
+        test: ererer
