@@ -2,6 +2,7 @@
 
 echo "Hello $1"
 time=$(date)
+echo $test
 echo $INPUT_WHO_TO_GREET
 echo $INPUT_WP_DB_USER
 echo ::set-output name=time::$time
@@ -14,4 +15,4 @@ set -o noglob     # disable glob
 set -- $newstr2 # split+glob with glob disabled.
 echo "$# elements:"
 printf '"%s"\n' $@
-sleep 100
+
