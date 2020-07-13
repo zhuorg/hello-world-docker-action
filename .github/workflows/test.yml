@@ -16,3 +16,5 @@ jobs:
         who_to_greet: '[1,2,3]'
         wp_db_name: 'wordpresstest'
         wp_db_user: 'admin'
+      env: 
+        test: erer
