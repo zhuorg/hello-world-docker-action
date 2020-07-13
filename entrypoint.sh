@@ -2,7 +2,7 @@
 
 echo "Hello $1"
 time=$(date)
-echo $test
+echo $FOO
 echo $INPUT_WHO_TO_GREET
 echo $INPUT_WP_DB_USER
 echo ::set-output name=time::$time
